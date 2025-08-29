@@ -28,14 +28,15 @@
  * 
  *      Example A: 
  *          declare an array variable to loop through
- *          use a for loop to loop through the array XX times
+ *          use a for loop to loop through the array XX times until condition is met
  *          print to the console each loop
  * 
  *      Example B:
- *          
+ *          use a for loop to loop backward, starting at the .length of the array
+ *          print to the console each loop
  * 
  * 
- * 3) Loop over and Array, forwards and backwards
+ * 3) Loop over an Array, forwards and backwards
  * 
  *      Example A:
  * 
@@ -53,26 +54,19 @@
  * 
  */
     var log = console.log;
+    var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 //      Example 2)A:
 
-    var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
-    //for loop to loop through the array in order to print the numbers 1- 13 to the console
-        for (var i = 0; i <= 13; i++){
-            log(i);
-        }
-
-
-
-
+        for (var i = 0; i <= 13; i++){           // for loop to loop through the array in 
+            log(i);                             // order to print the numbers 1- 13
+        };
 
 //      Example 2)B:
 
-
-
-
-
+        for (var i = arr.length; i >= 0; i--){   // for loop to loop back through the array in 
+            log(i);                             // order to print the numbers 15-0
+        };
 
 
 //      Example 3)A:
