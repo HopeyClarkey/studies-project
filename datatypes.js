@@ -96,13 +96,13 @@
         };                              //ends block of code
 
 // 7) Undefined
-        var und = undefined;    
-        print(und);
+        var und = undefined;    //defines variable with a value of undefined
+        print(und);             //prints value of und to console
 
 // 8) Null
-        var nul = null;
-        print(nul);
+        var nul = null;         //defines variable with a value of 'null'
+        print(nul);             //prints value of nul to console
 
 // 9) Not a Number
-        var nAN = NaN;
-        print (nAN);
+        var nAN = NaN;          //defines variable with a value of Not-a-Number
+        print (nAN);            //prints value of nAN to the console.
