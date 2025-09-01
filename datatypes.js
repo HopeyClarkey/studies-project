@@ -39,7 +39,8 @@
  * 
  * 
  * 
- * 11) Difference betweeen primitive/simple and complex datatypes
+ * 11) The difference betweeen primitive/simple and complex datatypes
+ * 
  *                         Simple datatypes: 
  *    Are immutable, they do not hold, collect, or aggregate other values, 
  *    and operations on simple datatypes return simple values, they do not 
@@ -51,8 +52,9 @@
  *    size. Objects can contain any number of key:value pairs. Arrays can 
  *    have any number of elements. Functions can have any number of statements.
  * 
- * 12) Primitive values are passed to a function BY COPY, 
- * and complex value types BY REFERENCE. 
+ * 
+ * 12)           Primitive values are passed to a function BY COPY,
+ *                  and complex value types BY REFERENCE. 
  * 
  *    Simple value types are 'copy-by-value'- when assigning or passing, 
  *    simple data-types are copied from one variable to the next. Variables 
@@ -61,7 +63,42 @@
  *    each variable takes up in memory.
  * 
  *    Complex datatypes are 'copy-by-reference'- when assigning or passing, 
- *    complex data-types are passed by reference to the data.
+ *    complex data-types are passed by reference to the data (too much memory
+ *    needed to copy directly.
  * 
  * 
  */
+
+// 1) Number datatype
+        var number = 13;    //an initialized variable representing the number 13
+
+// 2) String datatype
+        var string = 'This is an example.'; //string type, text message
+
+// 3) Boolean- a True or False datatype
+        var booleanOne = true;  //this value is true,
+        var booleanTwo = false; // this value is false
+
+// 4) Array datatype
+        var exampleArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; // array(list) of numbers
+
+// 5) Object datatype
+        var exampleObj = {      //an object named exampleObj
+            keyOne: 'value 1',  //key called keyOne, value is a string
+            keyTwo: 2,          //key called keyTwo, value is numeric value 2
+            keyThree: true,     //key called keyThree, value is boolean true
+        };
+
+// 6) function datatype
+        var function print(parameter){  //this creates a function called print
+            console.log(parameter);     //this prints the parameter to the console
+                                        //could put more operations here.
+        };                              //ends block of code
+
+// 7) Undefined
+        var und =;
+// 8) Null
+        var null =;
+
+// 9) Not a Number
+        var nAN =;
