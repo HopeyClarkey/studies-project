@@ -90,15 +90,19 @@
         };
 
 // 6) function datatype
-        var function print(parameter){  //this creates a function called print
+        function print(parameter){  //this creates a function called print
             console.log(parameter);     //this prints the parameter to the console
-                                        //could put more operations here.
+                                        //could put more operations here
         };                              //ends block of code
 
 // 7) Undefined
-        var und =;
+        var und = undefined;    
+        print(und);
+
 // 8) Null
-        var null =;
+        var nul = null;
+        print(nul);
 
 // 9) Not a Number
-        var nAN =;
+        var nAN = NaN;
+        print (nAN);
