@@ -32,7 +32,13 @@
  */
 
 // 1) Declare a variable 
-var petName; //variable created but not assigned
-petName = 'Logan'; //assigned string "Logan" to petName
+var currentPetName; //variable created but not assigned
+currentPetName = 'Logan'; //assigned string "Logan" to currentPetName
 
-//2)
+//2) var, let & const
+let catName = 'Banana';     //variable created, catName, assigned value with let
+let catName = 'Manson';     //variable catName reassigned to different value
+const dogName = 'Logan';    //variable dogName created and assigned to 'Logan'
+    console.log(dogName);   //print constrained dog name,
+const dogName = 'otherName';
+    console.log(dogName);   //print dogName after attempt to reassign

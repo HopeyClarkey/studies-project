@@ -106,3 +106,5 @@
 // 9) Not a Number
         var nAN = NaN;          //defines variable with a value of Not-a-Number
         print (nAN);            //prints value of nAN to the console.
+
+// 10) Infinity & -infinitiy
