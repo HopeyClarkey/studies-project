@@ -27,14 +27,17 @@
  *                      statements that work with data.
  * 
  * 7)                              Undefined:
- *               simple/primitive datatype- it exists, but has no value
+ *             simple/primitive datatype- it exists, but has no value
  * 
- * 8)                                 Null:
- *                          simple/primitive datatype, no data at all.
+ * 8)                                Null:
+ *                  simple/primitive datatype, no data at all.
+ *
+ * 9)                                 NaN:
+ *              simple/primitive datatype- "Not a Number"
  * 
- * 9) NaN - simple/primitive datatype
+ * 10)                      Infinity and -Infinity:
  * 
- * 10) Infinity and -Infinity
+ * 
  * 
  * 11) Difference betweeen primitive/simple and complex datatypes
  *                         Simple datatypes: 
