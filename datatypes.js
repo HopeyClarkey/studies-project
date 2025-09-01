@@ -56,6 +56,7 @@
  *    can only directly contain simple types, because the maximum amount of 
  *    memory a simple datatype is is 8 bites, which is the amount
  *    each variable takes up in memory.
+ * 
  *    Complex datatypes are 'copy-by-reference'- when assigning or passing, 
  *    complex data-types are passed by reference to the data.
  * 
