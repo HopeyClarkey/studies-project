@@ -19,15 +19,21 @@
  *    2015. Differenciated by re-assignment type & hoisting scope. var has no
  *    restrictions on reassignment and var will hoist initialization value to 
  *    scope. let also allows you to reassign variable throughout, and const 
- *    will not allow you to to reassign.  let and const will hoist to scope, 
- *    but will give undefined as value(some consider this non-hoisting???).
+ *    will not allow you to to reassign. let and const will hoist to scope, 
+ *    but will give undefined as value(some consider this non-hoisting???) if 
+ *    called prior to declaration/initialization statements.
  * 
  * 
  * 3)                               Hoisting:
  *    Hoisting refers to being able to ust a variables value in it's scope 
  *    before the line it was declared. The interpreter appears to move the 
  *    declaration of functions, variables, classes(?) or imports(??) to the
- *    top of their scope, prior to the execution of the code.
+ *    top of their scope, prior to the execution of the code. Before the
+ *    statements of a program are executed, all var and function declarations
+ *    ((not initalizations)) are 'dragged' to the top of the program.
+ *    var values will not throw referenceErrors if you try to reference them
+ *    before they are declared, let and const will. 
+ *    let and const will NOT hoist(ish, see above).
  * 
  */
 
