@@ -9,7 +9,8 @@
  * switch statements similarly to control flow.
  * 
  * In javascript, condtional statements boil down to comparisons and or values 
- * based on their truthy ness
+ * based on their truthy-ness or falsey-ness. Values will be coerced to-(changed)
+ * into boolean, this means the value is evaluated in a boolean context.
  * 
  * 1) If
  * 
