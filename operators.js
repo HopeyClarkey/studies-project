@@ -52,11 +52,12 @@
  *              is assigned.
  * 
  * ((Bonus Weird not really an operator:
- *         Object Property Syntax, written with a : inbetween an object's keys and values ))
+ *      Object Property Syntax, written with a : inbetween an object's keys and values ))
  *      
  * 2) Arithmetic Operators
- *      Arithmetic Operators perform arithmetic on numbers (literals or variables). They take
- * numerical values as their operands and return a single numerical value.
+ *      Arithmetic Operators perform arithmetic on numbers (literals or variables). They 
+ * take numerical values (or strings) as their operands and return a single numerical 
+ * value (or string).
  * 
  *      Addition, written with a + sign
  *          ~   The addition assignment adds numbers.
@@ -81,11 +82,15 @@
  *          ~   The decrement operator decrements numbers
  * 
  *      The Exponentation Operator, written with two ** signs
- *          ~   The exponentation operator raises the first operand to the power of the second
+ *          ~   The exponentation operator raises the first operand 
+ *              to the power of the second
  * 
  * ((Bonus Operator Precendence:
- *         Operator precedence describes the order in which operations are performed in an arithmetic expression.))
- * 
+ *      Operator precedence describes the order in which operations are performed in an 
+ * arithmetic expression. As in traditional school mathematics, Multiplication (*) and division (/) 
+ * have higher precedence than addition (+) and subtraction (-). And (as in school mathematics) 
+ * the precedence can be changed by using parentheses. When using parentheses, the operations 
+ * inside the parentheses are computed first:))
  * 
  * 3) Comparison Operators
  * 
