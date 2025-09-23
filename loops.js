@@ -28,11 +28,13 @@
  * 
  *      Example A: 
  *          ~  declare an array variable to loop through
- *          ~  use a for loop to loop through the array XX times until condition is met
+ *          ~  use a for loop to loop through the array XX 
+ *          times until condition is met
  *          ~  print to the console each loop
  * 
  *      Example B:
- *          ~  use a for loop to loop backward, starting at the .length of the array
+ *          ~  use a for loop to loop backward, starting at the 
+ *        .length of the array
  *          ~  print to the console each loop
  * 
  * 
