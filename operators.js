@@ -85,12 +85,13 @@
  *          ~   The exponentation operator raises the first operand 
  *              to the power of the second
  * 
- * ((Bonus Operator Precendence:
+ * ((Bonus Operator Precendence, or what math is done first:
  *      Operator precedence describes the order in which operations are performed in an 
  * arithmetic expression. As in traditional school mathematics, Multiplication (*) and division (/) 
  * have higher precedence than addition (+) and subtraction (-). And (as in school mathematics) 
  * the precedence can be changed by using parentheses. When using parentheses, the operations 
- * inside the parentheses are computed first:))
+ * inside the parentheses are computed first. When many operations have the same precedence,
+ * they are computed from left to right.))
  * 
  * 3) Comparison Operators
  * 
