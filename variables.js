@@ -45,6 +45,6 @@ currentPetName = 'Logan'; //assigned string "Logan" to currentPetName
 var catName = 'Banana';     //variable created, catName, assigned value with let
 let catName = 'Manson';     //variable catName reassigned to different value
 var dogName = 'Logan';    //variable dogName created and assigned to 'Logan'
-    console.log(dogName);   //print constrained dog name,
+    console.log(dogName);   //print constrained dog name
 const dogName = 'otherName';
     console.log(dogName);   //print dogName after attempt to reassign
