@@ -9,11 +9,9 @@
  *    simple/primitive datatype, represents a numeric value or integer.
  *
  * 
- *
- /
+ */
         var number = 13;    //an initialized variable representing the number 13
- /
- *
+ /*
  * 2)                               String:
  *       simple/primitive datatype, represents a string of characters,
  *                          commonly used for text.
@@ -110,4 +108,7 @@
  * 
  * 
  */
-// 10) Infinity & -infinitiy
+// 10) Infinity & -infinitiy:
+//       These aren't used a ton and but they do exist in javascript! Infinity
+//      is a number greater than any other, and -infinity is a number lower than
+//      any other.
