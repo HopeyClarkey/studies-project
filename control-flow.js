@@ -17,22 +17,23 @@
  * 
  * 1) If
  *      The if statement specifies a block of code to be executed if a condition is true
- *
-*/
- /*
- * 
+ *  
  * 2) Else-If
  *      The else if statement specifies a new condition if the first condition is false
- *
-*/
- /*
- *  
  * 3) Else
  *      The else statement specifies a block of code to be executed if the condition is false
-  *
-*/
- /*
- * 
+ */ 
+
+      function exampleIf(value){
+      if ( value > 20){
+        return 'if';
+      } else if (value > 5){
+        return 'else if'
+      } else {return 'else'};
+      }
+console.log(exampleIf(13))
+
+/* 
  * 4) Switch
  *      The switch statement executes a block of code depending on different cases. Use switch
  *  to select one of many blocks of code to be executed. Switch statements evaluate an 
