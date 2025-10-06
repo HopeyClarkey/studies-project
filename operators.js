@@ -17,85 +17,104 @@
  /*
  * General Assignment Operators:
  * 
- *      Simple Assignment, written with a single = sign
+ * 
+ *  Simple Assignment, written with a single = sign
  *          ~   The simple assignment assigns a simple value to a variable.
  *          ~   This can also be used to assign value to a string.
  * 
  *      Numerical Value Assignment:
  */     var number = 13;
  /*      ^    ^   ^   ^
-    declare name SAO value of the variable.*/console.log(number);
-
- //     String Assignment:
-        var charlie = "I guess this was his formal name.";
- /*      ^     ^    ^                 ^
-    declare  name  SAO   value of the variable.*/console.log(charlie);
- /*
+    declare name SAO value of the variable.*/console.log(number); /*
  *
- *      Addition Assignment, written with a + and an = sign
+ *      String Assignment:
+ */     var charlie = "I guess this was his formal name. ";
+ /*      ^     ^    ^                 ^
+    declare  name  SAO   value of the variable.*/console.log(charlie); /*
+ *
+ *  Addition Assignment, written with a + and an = sign
  *          ~   The addition assignment adds value to a variable.
  *          ~   This can also be used to assign value to a string.
- *
  * 
- *      Numberical Value Addition Assignment:
- */      number += 15;
+ *    Numberical Value Addition Assignment:
+ */     number += 15;
  /*        ^   ^   ^
-          name AA 'added' value of the variable.*/console.log(number);
-
-//      String Assignment:
-         charlie += "Even though that's weird."
- /*        ^     ^    ^                 
+          name AA 'added' value of the variable.*/console.log(number); /*
+ *
+ *    String Assignment:
+*/      charlie += "Even though that's weird."
+/*         ^      ^                  ^                 
           name   AA   'added' value of the variable.*/console.log(charlie);
  /*
  *
- *      Subtraction Assignment, written with a - and an = sign
- *          ~   The subtraction assignment removes value from a variable.
- */
+ *  Subtraction Assignment, written with a - and an = sign
+ *          ~   The subtraction assignment removes value from a variable.*/
         number -= 10; 
  /*       ^     ^  ^
  *      name   SA value subtracted from variable */console.log(number);
 /*
- *      Multiplication Assignment, written with a * and an = sign
+
+ *  Multiplication Assignment, written with a * and an = sign
  *          ~   The multiplication assignment multiplies a variable.
- */        number *= 10; 
+ */     number *= 10; 
  /*       ^     ^  ^
- *      name   MA value multipled from variable */console.log(number);
+ *      name   MA value multipled from variable */console.log(number);/*
+ *
+ *  Exponentation Assignment, written with two ** and an = sign
+ *          ~   The exponentation assignment  raises a variable.
+ *              to the power of the operand.
+ */     number **= 2; 
+ /*       ^     ^  ^
+ *      name   EA value exponented from variable */console.log(number);
  /*
- *      Exponentation Assignment, written with two ** and an = sign
- *          ~   The expoonentation assignment  raises a variable.
- *          to the power of the operand.
- */
- /*
- *      Division Assignment, written with a / and an = sign
+ *  Division Assignment, written with a / and an = sign
  *          ~   The division operator divides a variable.
- */
+ */     number /= 10; 
+ /*       ^     ^  ^
+ *      name   DA value divided from variable */console.log(number);
  /*
- *      Remainder Assigment Operator, written with a % and an = sign
+
+ *  Remainder Assigment Operator, written with a % and an = sign
  *          ~   The remainder Operator assigns a remainder to a variable.
-  */
+ */     number %= 3; 
+ /*       ^     ^  ^
+ *      name   RA value remainder from variable */console.log(number);
  /* 
  *  Logical Assignment Operators:
- * 
+ */ var a = true;
+    var b = 'value';
+    var c = false;
+/*
  *      Logical AND Assignment Operator, written with two && an = sign
  *          ~   The logical AND assignment operator is used between 2 values.
  *          ~   If the first value is true, the second value is assigned.
- */
- /* 
+ */     console.log(a &&= b);
+ /*                 ^ ^   ^
+           true value LAO new value 
+ *
  *      Logical OR Assignment Operator, written with two || and an = sign
  *          ~   The logical OR assignment operator is used between 2 values.
  *          ~   If the first value is false, the second value is assigned.
-  */
- /*
+ */     console.log(c ||= b);
+ /*                 ^  ^  ^
+          false value LOO new value
+ *
  *      Nullish Coalescing Assignment Operator, written with two ?? and an = sign
  *          ~   The nullish coalescng assignment operator is used between 2 values.
  *          ~   If the first value is undefined or null, the second value
  *              is assigned.
   */
+        let newThing; //declared but not defined variable
+        newThing ??= "WeirdThing";
+/*         ^       ^         ^
+ * undefined value NCAO     new value */console.log(newThing);
  /*
  * ((Bonus Weird not really an operator:
  *      Object Property Syntax, written with a : inbetween an object's keys and values ))
-  */
- /*     
+  */    { property : 'value'}
+ /*         ^      ^    ^
+           key    OPS  value     
+
  * 2) Arithmetic Operators
  *      Arithmetic Operators perform arithmetic on numbers (literals or variables). They 
  * take numerical values (or strings) as their operands and return a single numerical 
