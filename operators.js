@@ -158,7 +158,7 @@
 
  *      The Increment Operator, written with two ++ signs
  *          ~   The increment operator increments numbers.
- */    console.log(number++);
+ */     console.log(number++);
  /*                  ^   ^
                     value IO 
 
@@ -193,45 +193,50 @@
  *      Equal to Operator, written with two == signs
  *          ~   compares two values
  *          ~   this operator will coerce a string to a number if digits
- */
+ */     console.log(manson == number); // will print false
  /* 
  *      Equal Value and Equal Type Operator, written with three === signs
  *          ~   compares two values, using strict match rules for both value and type
- */
+ */     console.log(newThing === "WeirdThing"); // will print true
  /*
  *      Not Equal Operator, written with a ! and a = sign
  *          ~   this compares two values and returns true if they are NOT a match
  *          ~   this will also coerce a string to a number if digits
-  */
+  */    console.log(manson != "cat"); // will print true
+        console.log("13" != 13); //will print false
  /*
  *      Not Equal Value, or Not Equal Type Operator written with a ! and two = signs
  *          ~   this compares two values, returns true if not a match with strict value and type
-  */
- /* 
+  */    console.log("13" !== 13) ;//will print false
+  /*
  *      Greater Than Operator, written with a > sign
  *          ~   Compares two values, returns true if the value on the left is greater 
  *              than the value on the right
  *          ~   When used on strings, letters are ranked alphabetically.
-  */
- /*
+  */    console.log(13 > 9); // will print true
+        console.log("thirteen" > "seventeen"); //will print true
+  /*
  *      Less Than Operator, written with a < sign
  *          ~   Compares two values, returns true if the value on the left is less 
  *              than the value on the right
  *          ~   When used on strings, letters are ranked alphabetically.
-  */
- /* 
+  */    console.log(13 < 9); // will print false
+        console.log("thirteen" < "seventeen"); //will print false
+  /*
  *       Greater Than or Equal to Operator, written with a > and a = sign
  *          ~   Compares two values, returns true if the value on the left is greater 
  *              than the value on the right, including the value on the right itself
  *          ~   When used on strings, letters are ranked alphabetically.
-  */
- /*
+  */    console.log(2 >= 4); // will print false
+        console.log("thirteen" >= "twelve"); //will print false
+  /*
  *      Less Than or Equal to Operator, written with a <  and a = sign
  *          ~   Compares two values, returns true if the value on the left is less 
  *              than the value on the right, including the value on the right itself
  *          ~   When used on strings, letters are ranked alphabetically.
-  */
- /* 
+  */    console.log(2 <= 4); // will print true
+        console.log("thirteen" <= "twelve"); //will print true
+  /*
  * 4) Logical Operators
  *      A logical operator is one or two symbols or a keyword that tells the computer 
  *  how to combine conditional statement. The result of using a logical operator is a
@@ -240,17 +245,17 @@
  *      Logical And Operator, written with two && symbols
  *          ~   The logical operator && requires the values on both sides to be true 
  *              for the result to be true, otherwise will return false
-  */
+  */    console.log( true && true); //prints true
  /* 
  *      Logical Or Operator, written with two || symbols
  *          ~   The logical operator || requires a value on either side to be true 
  *              for the result to be true, otherwise will return false
-  */
+  */    console.log( true || false); //prints true
  /*
  *      Logical NOT Operator, written with a ! symbol
  *          ~   The logical operator ! requires both values on either side to be false
  *              for the result to be true, otherwise will return false 
- */
+  */    //console.log(false ! false); //prints true ()
  /*
  * 5) Unary Operators (!, typeOf, -)
  *      JavaScript Unary Operators work on a single operand and perform various operations, 
@@ -291,9 +296,50 @@
  * 
  * 6) Ternary Operator (a ? b : )
  *      This operator pattern can replace an if/else statement.
- */
- /* 
- *      (comparison statement  ?  result if true : result if false)
+ */     console.log("if these two" === "are the same" ? "return this " : "return that");
+ /*                                 ^                       ^                   ^
+ *                          comparison statement     result if true     result if false)
+ * 
+ * If all errors are commented out above, console should read:
+ * 
+ * He was my favorite boy cat
+ * 13
+ * I guess this was his formal name
+ * 28
+ * I guess this was his formal name. Even though that's weird.
+ * 18
+ * 180
+ * 32400
+ * 3240
+ * 0
+ * value
+ * value
+ * WeirdThing
+ * 15
+ * I lost him this last year.
+ * 13
+ * 26
+ * 13
+ * 1
+ * 1
+ * 2
+ * 1
+ * false
+ * true
+ * true
+ * false
+ * true
+ * true
+ * true
+ * false
+ * false
+ * false
+ * false
+ * true
+ * true
+ * true
+ * true
+ * return that
  * 
  * 
  */
