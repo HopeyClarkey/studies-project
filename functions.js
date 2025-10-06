@@ -9,27 +9,47 @@
  * 
  *  1) The two phases to using functions: First we must define the function by giving it a name 
  *     Next we can execute, invoke, or call a function by using that name.
-*/
+*/    var functionName = function(){
+            console.log('this is a name!')
+        }
+
+        functionName(); //prints to the console 'this is a name'
  /*
  *  2) Parameters refer to the variables listed in a function's declaration, defining the 
  *  input that the function can accept. Arguments, however, are the actual values passed to 
  *  the function when it is called, filling the parameters during execution.
-*/
+*/    var anotherFunction = function(thisIsAParameter,thisIsAParameterToo){
+            console.log(thisIsAParameter + " " + thisIsAParameterToo);
+        }
+
+        anotherFunction('this is an argument;', 'so is this');
  /* 
  *  3) A named function can be created like this :
- *          function nameOfFunction (){
- *              body of function
- *          }
-*/
- /* 
+ */       function nameOfFunction (){
+    //        ^            ^        
+    //     creates        names
+            return "this is the body of the function";
+    //                      ^
+    //                 what it does
+          }
+
+/* 
  *  4) How to assign a function to a variable:
- *          let nameOfFunctionToo = function(){
- *          }
-*/
+ */       let nameOfFunctionToo = function(){
+    //     ^        ^                   ^
+    //  assign     name              create
+            return "this variable is a function";
+           };
+
  /* 
  *  5) Functions take inputs, and return a single value. Inputs are specified as parameters
  *  when writing the function, and outputs are defined by the 'return' statement.
-*/
+*/      
+        let funkyFunc = function(input){
+                                   ^
+    //                  specified parameter
+            return  input + " single value!";
+        }
  /* 
  *  6) Scope: Functions can see and modify variables in parent or global scopes. 
  *  The inverse is NOT true.
