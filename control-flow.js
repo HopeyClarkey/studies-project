@@ -52,3 +52,20 @@ console.log(exampleIf(13))
  *          ~   Is optional, but recommended as it takes care of 
  *              unexpected cases.
  */
+
+    let fruit = "apple";
+
+    switch (fruit){
+      case 'apple':
+      case 'plum':
+      case 'strawberry':
+          console.log("I like these fruits");
+        break;
+      case "pears":
+      case "cherries":
+      case "berries":
+          console.log('I love these fruits');
+        break;
+      default:
+          console.log('there are other fruits, though.')  
+    }
