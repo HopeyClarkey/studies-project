@@ -17,7 +17,6 @@
  /*
  * General Assignment Operators:
  * 
- * 
  *  Simple Assignment, written with a single = sign
  *          ~   The simple assignment assigns a simple value to a variable.
  *          ~   This can also be used to assign value to a string.
@@ -122,39 +121,61 @@
   */
  /*
  *      Addition, written with a + sign
- *          ~   The addition assignment adds numbers.
+ *          ~   The addition assignment adds two numbers.
  *          ~   This can also be used to concatenate strings together.
-  */
- /*
+ *          Numerical Value addition:
+ */     number = number + 15;
+ /*                ^    ^ ^
+                value1  A value2 */console.log(number); /*
+ *          String Concatenation:
+ */     charlie = "I lost him " + "this last year.";
+ /*      ^     ^    ^                 ^
+    declare  name  SAO   value of the variable.*/console.log(charlie); /*
+
  *      Subtraction, written with a - sign
  *          ~   The subtraction assignment subtracts numbers.
-  */
- /*
+ */     number = number - 2;
+ /*                ^    ^ ^
+                value1  S value2 */console.log(number); /*
+
  *      Multiplication, written with a * sign
  *          ~   The multiplication assignment multiplies numbers.
- */
- /*
+ */     number = number * 2;
+ /*                ^    ^ ^
+                value1  M value2 */console.log(number); /*
+
  *      Division, written with a / 
  *          ~   The division operator divides numbers.
- */
- /*
+ */     number = number / 2;
+ /*                ^    ^ ^
+                value1  D value2 */console.log(number); /*
+
  *      Remainder, written with a % sign, or modulus
- *          ~   The modulus operator returns the division remainder.
-  */
- /*
+ *          ~   The modulus operator returns the division remainder(whats left after dividing).
+ */     number = number % 2;
+ /*                ^    ^ ^
+                value1  M value2 */console.log(number); /*
+
  *      The Increment Operator, written with two ++ signs
  *          ~   The increment operator increments numbers.
-  */
- /* 
+ */    console.log(number++);
+ /*                  ^   ^
+                    value IO 
+
  *      The Decrement Operator, written with two -- signs
  *          ~   The decrement operator decrements numbers
- */
- /*
+ */     console.log(number--);
+ /*                   ^   ^
+                    value DO 
+
  *      The Exponentation Operator, written with two ** signs
  *          ~   The exponentation operator raises the first operand 
  *              to the power of the second
- */
- /*
+ */    console.log(number**2);
+ /*                  ^   ^
+                   value EO
+
+
  * ((Bonus Operator Precendence, or what math is done first:
  *      Operator precedence describes the order in which operations are performed in an 
  * arithmetic expression. As in traditional school mathematics, Multiplication (*) and division (/) 
@@ -266,10 +287,7 @@
  /* 
  *      void Operator, written with lowercase void
  *          ~   this evaluates the given expression and returns undefined.
- * 
-*/
- /* 
- * 
+
  * 
  * 6) Ternary Operator (a ? b : )
  *      This operator pattern can replace an if/else statement.
