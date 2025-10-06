@@ -33,9 +33,9 @@
             catName = 'Manson';     //  variable catName reassigned to different value
         const dogName = 'Logan';    //  variable dogName created and assigned to 'Logan' with const
             console.log(dogName);   //  print constrained dog name
-            dogName = 'otherName';  //  attempt to reassign dog name
+            //dogName = 'otherName';  //  attempt to reassign dog name ((remove/add comment lines))
             console.log(dogName);   //  print dogName after failed attempt to reassign
- /*
+ /*    ((please comment out this dog name reassignment so that the hoisting problems will work))
  *  
  * 3)                               Hoisting:
  *    Hoisting refers to being able to ust a variables value in it's scope 
@@ -48,4 +48,20 @@
  *    before they are declared, let and const will. 
  *    let and const will NOT hoist(ish, see above).
  * 
- */
+ *
+ *    Hoisting with Var: 
+ */   console.log(cat);      // this will print undefined, as the variable cat is hoisted, but the value is not 
+      var cat = "Manson";    // once value is assigned,
+      console.log(cat);      // this will print 'Banana'
+
+/*
+If the dogName reassignment error is cleared with commenting above, your console should look like this after printing:
+      Logan
+      Banana
+      Logan
+      Logan
+      undefined
+      Manson
+*/
+
+
