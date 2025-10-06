@@ -11,15 +11,27 @@
  * In javascript, condtional statements boil down to comparisons and or values 
  * based on their truthy-ness or falsey-ness. Values will be coerced to-(changed)
  * into boolean, this means the value is evaluated in a boolean context.
+ *
+*/
+ /*
  * 
  * 1) If
  *      The if statement specifies a block of code to be executed if a condition is true
+ *
+*/
+ /*
  * 
  * 2) Else-If
  *      The else if statement specifies a new condition if the first condition is false
- * 
+ *
+*/
+ /*
+ *  
  * 3) Else
  *      The else statement specifies a block of code to be executed if the condition is false
+  *
+*/
+ /*
  * 
  * 4) Switch
  *      The switch statement executes a block of code depending on different cases. Use switch

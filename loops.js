@@ -10,19 +10,22 @@
  *    a parenthesis, and a condition that while true, will continue                                                  
  *    to execute the block of code in the body of the while-loop.                                                                                        
  *    
- *  
+ */
+ /*  
  *                          for loop                            
  *    for loop is a loop that will move forward from an initialized   
  *    index, to another index (found with a condition), and an
  *    increment statement
  *    
- *  
+*/
+ /*  
  *                          for- in loop                      
  *    for-in loop will pull all of the keys out of an Object,
  *    one by one. This allows you to use the key to get the values
  *    to execute the block of code in the body of the while-loop.                                                                                        
  *    
- * 
+ */
+ /* 
  * 2) Be able to loop any number of  times, forward counting up to 
  *    some limit,and then backward, counting down to 0
  * 
@@ -31,22 +34,24 @@
  *          ~  use a for loop to loop through the array XX 
  *          times until condition is met
  *          ~  print to the console each loop
- * 
+ */
+ /* 
  *      Example B:
  *          ~  use a for loop to loop backward, starting at the 
  *        .length of the array
  *          ~  print to the console each loop
  * 
- * 
+ */
+ /*
  * 3) Loop over an Array, forwards and backwards
  * 
  *      Example A:
- * 
- * 
+ */
+ /* 
  *      Example B:
  * 
- * 
- * 
+ */
+ /* 
  * 4) Loop over an Object
  * 
  *      Example A:

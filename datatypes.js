@@ -7,9 +7,13 @@
  * 
  * 1)                               Number: 
  *    simple/primitive datatype, represents a numeric value or integer.
- */
+ *
+ * 
+ *
+ /
         var number = 13;    //an initialized variable representing the number 13
-/*
+ /
+ *
  * 2)                               String:
  *       simple/primitive datatype, represents a string of characters,
  *                          commonly used for text.
