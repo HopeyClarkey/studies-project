@@ -5,7 +5,10 @@
  * variables. They are the building blocks of JavaScript expressions and can 
  * manipulate data in various ways.
  */
- /*
+        var manson = "He was my favorite boy cat."
+ /*                ^
+            This part here is doing a LOT of work */console.log(manson);
+/*
  * 1) Assignment Operators
  *      Assignment Operators assign values to JavaScript variables. They can 
  * also perform basic operations such as addition or multiplication while 
@@ -17,20 +20,46 @@
  *      Simple Assignment, written with a single = sign
  *          ~   The simple assignment assigns a simple value to a variable.
  *          ~   This can also be used to assign value to a string.
- */
+ * 
+ *      Numerical Value Assignment:
+ */     var number = 13;
+ /*      ^    ^   ^   ^
+    declare name SAO value of the variable.*/console.log(number);
+
+ //     String Assignment:
+        var charlie = "I guess this was his formal name.";
+ /*      ^     ^    ^                 ^
+    declare  name  SAO   value of the variable.*/console.log(charlie);
  /*
+ *
  *      Addition Assignment, written with a + and an = sign
  *          ~   The addition assignment adds value to a variable.
  *          ~   This can also be used to assign value to a string.
- */
+ *
+ * 
+ *      Numberical Value Addition Assignment:
+ */      number += 15;
+ /*        ^   ^   ^
+          name AA 'added' value of the variable.*/console.log(number);
+
+//      String Assignment:
+         charlie += "Even though that's weird."
+ /*        ^     ^    ^                 
+          name   AA   'added' value of the variable.*/console.log(charlie);
  /*
+ *
  *      Subtraction Assignment, written with a - and an = sign
  *          ~   The subtraction assignment removes value from a variable.
  */
- /*
+        number -= 10; 
+ /*       ^     ^  ^
+ *      name   SA value subtracted from variable */console.log(number);
+/*
  *      Multiplication Assignment, written with a * and an = sign
  *          ~   The multiplication assignment multiplies a variable.
-  */
+ */        number *= 10; 
+ /*       ^     ^  ^
+ *      name   MA value multipled from variable */console.log(number);
  /*
  *      Exponentation Assignment, written with two ** and an = sign
  *          ~   The expoonentation assignment  raises a variable.

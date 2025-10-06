@@ -54,14 +54,36 @@
       var cat = "Manson";    // once value is assigned,
       console.log(cat);      // this will print 'Banana'
 
+//    Hoisting with Let or Const:
+      //console.log(dog); // ReferenceError: Cannot access 'dog' before initialization ((remove/add comment lines))
+      let dog = "Logan";// This will throw an error, as block scoping is only available after declaration
+
+//    Function Declarations are Fully Hoisted:
+      console.log(callLogan());     //    this will print as you can use declared functions due to hoisting (see below)
+      function callLogan(){
+      return 'Come here bubbadoh!';
+      }
+
+//    But Function Expressions are not Fully Hoisted:
+      //console.log(okFingers()); //  TypeError: okFingers is not a function ((remove/add comment lines))
+
+      var okFingers = function (){
+      return ['logan ', 'will ', 'sit ', 'down.'];
+      } // so this explains a big reason why you have these different methods. you are still making a function
+        // but because it is 'expressed' and not 'declared', it doesn't exist yet.
+
+        console.log(okFingers()); //  This will print
+
 /*
-If the dogName reassignment error is cleared with commenting above, your console should look like this after printing:
+If the errors are cleared with commenting above, your console should look like this after printing:
       Logan
       Banana
       Logan
       Logan
       undefined
       Manson
+      Come here bubbadoh
+      ['logan ', 'will ', 'sit ', 'down.']
 */
 
 
